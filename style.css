@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h3 {
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+}
+p {
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  font-size: 15px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  border-radius: 15px;
+  margin: 100px;
+}
+.card-img {
+  background-color: bisque;
+  height: 67%;
+  margin: 10px;
+  background-size: cover;
+  border-radius: 15px 15px 15px 15px;
+}
+.img-1 {
+  background-image: url("img/image-qr-code.png");
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+}
